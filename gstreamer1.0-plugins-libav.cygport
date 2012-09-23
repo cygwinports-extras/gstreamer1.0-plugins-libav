@@ -1,0 +1,13 @@
+NAME="gstreamer1.0-plugins-libav"
+VERSION=0.11.99
+RELEASE=1
+CATEGORY="Audio Video"
+SUMMARY="GStreamer 1.0 LibAV plugins"
+DESCRIPTION="GStreamer LibAV plug-in contains a set of elements using the
+LibAV library code. It contains most popular decoders as well as very fast
+colorspace conversion elements."
+inherit gst-plugins
+
+PATCH_URI="01-builtin-libav.patch"
+
+KEEP_LA_FILES="none"
