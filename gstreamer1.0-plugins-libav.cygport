@@ -1,7 +1,7 @@
 inherit gst-plugins
 
 NAME="gstreamer1.0-plugins-libav"
-VERSION=1.2.3
+VERSION=1.4.5
 RELEASE=1
 CATEGORY="Audio Video"
 SUMMARY="GStreamer 1.0 LibAV plugins"
@@ -9,7 +9,7 @@ DESCRIPTION="GStreamer LibAV plug-in contains a set of elements using the
 LibAV library code. It contains most popular decoders as well as very fast
 colorspace conversion elements."
 
-PATCH_URI="1.2.3-cygwin-c99.patch"
+#PATCH_URI="1.2.3-cygwin-c99.patch"
 
 # hack around linkage of static libs into DLL
 CYGCONF_ARGS="lt_cv_deplibs_check_method=pass_all"
