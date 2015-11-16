@@ -11,5 +11,7 @@ colorspace conversion elements."
 
 #PATCH_URI="1.2.3-cygwin-c99.patch"
 
+REQUIRES="gstreamer1.0-plugins-ugly"
+
 # hack around linkage of static libs into DLL
 CYGCONF_ARGS="lt_cv_deplibs_check_method=pass_all"
