@@ -12,4 +12,6 @@ colorspace conversion elements."
 REQUIRES="gstreamer1.0-plugins-ugly"
 
 # hack around linkage of static libs into DLL
-CYGCONF_ARGS="lt_cv_deplibs_check_method=pass_all"
+#CYGCONF_ARGS="lt_cv_deplibs_check_method=pass_all"
+# or better yet, skip it
+CYGCONF_ARGS="--with-system-libav"
