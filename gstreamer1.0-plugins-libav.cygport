@@ -1,7 +1,7 @@
 inherit gst-plugins
 
 NAME="gstreamer1.0-plugins-libav"
-VERSION=1.12.4
+VERSION=1.12.5
 RELEASE=1
 CATEGORY="Audio Video"
 SUMMARY="GStreamer 1.0 LibAV plugins"
